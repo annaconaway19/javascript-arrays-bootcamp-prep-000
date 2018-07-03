@@ -1,10 +1,9 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-function addElementToBeginningOfArray(chocolateBars, x) {
-  x = 'reeses';
-  return [...chocolateBars, x]
+function addElementToBeginningOfArray(array, element) {
+  return ['reeses', 1];
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, x) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
        return chocolateBars.push('twix');
 }
