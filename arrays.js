@@ -25,6 +25,6 @@ function accessElementInArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  chocolateBars = array.slice(0);
+  chocolateBars = array.slice(1);
   return chocolateBars;
 }
