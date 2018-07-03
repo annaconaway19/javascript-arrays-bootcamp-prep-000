@@ -5,6 +5,6 @@ function addElementToBeginningOfArray(chocolateBars, x) {
   return [...chocolateBars, x]
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  
+function destructivelyAddElementToBeginningOfArray(chocolateBars, x) {
+       return chocolateBars.push('twix');
 }
